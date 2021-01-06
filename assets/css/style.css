@@ -76,29 +76,7 @@ img{
 }
 
 /*============= CLASS CSS ==============*/
-.section-title{
-    position: relative;
-    font-size: var(--h2-font-size);
-    color: var(--first-color);
-    margin-top: var(--mb-2);
-    margin-bottom: var(--mb-4);
-    text-align: center;
-}
-.section-title::after{
-    position: absolute;
-    content: "";
-    width: 64px;
-    height: 0.18rem;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 2rem;
-    background-color: var(--first-color);
-}
-.section{
-    padding-top: 3rem;
-    padding-bottom: 2rem;
-}
+
 /*============= LAYOUT ==============*/
 .bd-grid{
     max-width: 1024px;
@@ -297,25 +275,7 @@ form {
   }
   
   
-/*============= ABOUT=========*/
-.about__container{
-    row-gap: 2rem;
-    text-align: center;
-}
-.about__subtitle{
-    margin-bottom: var(--mb-2);
-}
-.about__img{
-    justify-self: center;
- 
-}
-.about__img img {
-    width: 200px;
-    border-radius: .5rem;
-    
-}
-
-/*============= SKILLS =========*/
+/*============= competition========*/
 
 /*============= CONTACT =========*/
 .contact__input{
